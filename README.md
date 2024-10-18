@@ -17,6 +17,12 @@ cd kafka-ssl-cluster
 ./bootstrap.sh
 ```
 
+Start docker with
+
+```bash
+docker compose up -d
+```
+
 Now, the cluster is ready to use. You can start a terminal in the container with the following command:
 
 ```bash
