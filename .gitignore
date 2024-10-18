@@ -1,0 +1,15 @@
+data/*
+data-*
+!data/.gitkeep
+log/*
+!log/.gitkeep
+secrets-1/*
+secrets-2/*
+secrets-3/*
+!secrets-1/*.cnf
+!secrets-2/*.cnf
+!secrets-3/*.cnf
+ca.crt
+ca.key
+ca.pem
+ca.srl
