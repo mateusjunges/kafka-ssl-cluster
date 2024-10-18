@@ -65,7 +65,7 @@ do
 
     echo "confluent" > secrets-$cluster/kafka-${cluster}_sslkey_creds
     echo "confluent" > secrets-$cluster/kafka-${cluster}_keystore_creds
-    echo "$cluster processing completed."
+    echo "Finished processing cluster $cluster."
 done
 
 
